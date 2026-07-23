@@ -12,14 +12,15 @@
 
 background-color:rgb(20, 37, 24);
 width:100%;
+display: block;
 
 }
 
 .pageContent{
 
   position: relative;
-  width: 98dvw;
-
+  width: 115dvw;
+  display: block;
 }
 
 .welcomeText1{
@@ -132,6 +133,12 @@ text-align: center;
 
 }
 
+.specialEvents{
+
+  background-color: aliceblue;
+
+}
+
 .eventSection{
 
 width: 100vw;
@@ -210,6 +217,15 @@ text-align: left;
   box-shadow: 0 0 100px rgb(20, 37, 24);
 }
 
+.eventS{
+border: 5px;
+list-style-type: none;
+height: 780px;
+
+display: inline-block;
+text-align: center;
+}
+
 .event1{
 border: 5px;
 list-style-type: none;
@@ -259,7 +275,8 @@ background-color:rgb(0, 0, 0);
 color: aliceblue;
 position: relative;
 bottom: 0;
-width: 100dvw;
+width: 115dvw;
+display: block;
 
 }
 
